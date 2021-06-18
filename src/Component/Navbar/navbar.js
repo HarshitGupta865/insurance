@@ -3,14 +3,14 @@ import './navbar.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import Logo from '../../Assets/Images/logo.svg';
+import Logo from '../../Assets/Images/logo.png';
 import { faBars } from '@fortawesome/fontawesome-free-solid';
 export default function navbar(){
     return(
         <div>
             <nav className="navbar navbar-expand-lg navbar_css sticky-top">
                 <a className="navbar-brand" href="#">
-                    <img src={Logo} width="100px" height="100px"/>
+                    <img src={Logo} width="80px" height="80px"/>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     < FontAwesomeIcon icon={faBars} color="white" size="lg"/>
@@ -24,10 +24,21 @@ export default function navbar(){
                             SERVICES
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="#">LIC OF INDIA</a>
+                                <a class="dropdown-item" href="#">STAR HEALTH INSURANCE</a>
+                                <a class="dropdown-item" href="#">VEHICLE INSURANCE</a>
+                                <a class="dropdown-item" href="#">ACCIDENTAL INSURANCE</a>
+                                <a class="dropdown-item" href="#">TRAVEL INSURANCE</a>
+                                <a class="dropdown-item" href="#">COMMERCIAL LINE PRODUCT INSURANCE</a>
+                                <a class="dropdown-item" href="#">MARINE INSURANCE</a>
+                                <a class="dropdown-item" href="#">MACHINE INSURANCE</a>
+                                <a class="dropdown-item" href="#">COMPANY INSURANCE</a>
+                                <a class="dropdown-item" href="#">OFFICE INSURANCE</a>
+                                <a class="dropdown-item" href="#">HOTEL INSURANCE</a>
+                                <a class="dropdown-item" href="#">HOUSE INSURANCE</a>
+                                <a class="dropdown-item" href="#">SHOP INSURANCE</a>
+                                <a class="dropdown-item" href="#">FLAT INSURANCE</a>
+                                <a class="dropdown-item" href="#">OTHER IMPORTANT FINANCIAL SERVICES</a>
                             </div>
                         </li>
                         <a className="nav-item nav-link" href="#">AWARDS</a>
