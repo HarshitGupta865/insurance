@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 :root {
-    --poppins: 'Poppins', sans-serif;
-  }
+  --poppins: 'Poppins', sans-serif;
+}
 
 .navbar_css{
     font-family: var(--poppins);
@@ -18,4 +18,3 @@
     font-size: 20px;
     margin-left: 50px;
 }
-   
