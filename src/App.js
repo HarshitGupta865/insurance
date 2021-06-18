@@ -6,10 +6,12 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // --------------------------------------------------COMPONENTS-------------------------------------
 
 import Footer from '../src/Component/Footer/Footer';
+import Herosection from '../src/Component/Herosection/Herosection';
 
 function App() {
   return (
     <>
+      <Herosection />
       <Footer />
     </>
   );
