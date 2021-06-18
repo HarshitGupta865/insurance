@@ -4,13 +4,13 @@
     --poppins: 'Poppins', sans-serif;
   }
 
-#menues{
-    display: flex;
-    align-items: center;
-}
 .navbar_css{
     font-family: var(--poppins);
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-width{
+    width: 90%;
 }
 
 .nav-link{
