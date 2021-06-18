@@ -8,10 +8,12 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import Footer from '../src/Component/Footer/Footer';
 import Herosection from '../src/Component/Herosection/Herosection';
+import Navbar from '../src/Component/Navbar/navbar';
 
 function App() {
   return (
     <>
+      <Navbar />
       <Herosection />
       <Footer />
     </>

@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 :root {
-    --poppins: 'Poppins', sans-serif;
-  }
-
-#menues{
-    display: flex;
-    align-items: center;
-}
-.navbar_css{
-    font-family: var(--poppins);
-    background-color: rgba(0, 0, 0, 0.4);
+  --poppins: 'Poppins', sans-serif;
 }
 
-.nav-link{
-    color: white;
-    font-size: 20px;
-    margin-left: 50px;
+#menues {
+  display: flex;
+  align-items: center;
 }
-   
+.navbar_css {
+  font-family: var(--poppins);
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  width: 100%;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+}
