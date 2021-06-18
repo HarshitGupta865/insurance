@@ -1,15 +1,19 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.main_footer {
+  font-family: var(--poppins);
   background-color: var(--white);
   max-width: var(--container-max-width);
   margin: 0 auto;
 }
 
+.footer_para {
+  font-size: var(--font-size-normal);
+}
+
 .social_icons {
-  margin: 20px;
-  font-size: 30px;
   color: var(--black);
-  transition: all 0.3s linear;
-  outline: none;
+  transition: all 0.3s ease;
 }
 
 .social_icons:hover {
@@ -17,9 +21,7 @@
 }
 
 .get_connected {
-  font-size: var(--font-size-normal);
-  font-weight: bold;
-  font-style: italic;
+  font-size: var(--font-size-medium);
   color: var(--blue);
 }
 
@@ -28,9 +30,7 @@
 }
 
 .footer_links {
-  text-decoration: none;
   color: var(--black);
-  font-weight: 500;
 }
 
 .footer_links:hover {
@@ -38,16 +38,20 @@
 }
 
 .copyright {
-  font-size: var(--font-size-very-small);
+  font-size: var(--font-size-normal);
   background-color: rgba(0, 0, 0, 0.5);
-  font-weight: bold;
 }
 
-/* -----------------------------------------------RESPONSIVENESS---------------------------------------- */
+/* --------------------------------------------------RESPONSIVENESS------------------------------------ */
 
-@media only screen and (max-width: 600px) {
-  .social_icons {
-    margin: 1.4rem;
-    font-size: 2.5rem;
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .footer_para {
+    font-size: var(--font-size-small-1);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .footer_para {
+    font-size: var(--font-size-small);
   }
 }
