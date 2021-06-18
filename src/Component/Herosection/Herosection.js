@@ -1,16 +1,21 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-// import Navbar from '../Navbar/navbar';
 import ExploreIcon from '@material-ui/icons/Explore';
 import ShopIcon from '@material-ui/icons/Shop';
 import '../../index.css';
 import './Herosection.css';
 
+const materialUiStyling = {
+  fontSize: '1.1rem',
+  backgroundColor: '#3265A7',
+  color: '#FFFFFF',
+  fontWeight: 'bold',
+};
+
 const Herosection = () => {
   return (
     <main className="main_herosection d-flex justify-content-center flex-column">
-      {/* <Navbar /> */}
-      <section className="ms-5 mt-5 text-left herosection">
+      <section className="ms-sm-5 ms-4 herosection">
         <p className="hero_para">
           Welcome To,
           <br />
@@ -29,12 +34,7 @@ const Herosection = () => {
         </p>
         <div className="button_section pt-5 d-flex me-5">
           <Button
-            style={{
-              fontSize: '1.1rem',
-              backgroundColor: '#3265A7',
-              color: '#FFFFFF',
-              fontWeight: 'bold',
-            }}
+            style={materialUiStyling}
             className="me-5 hero_button p-3"
             variant="contained"
             size="small"
@@ -43,12 +43,7 @@ const Herosection = () => {
             <ExploreIcon fontSize="large" style={{ marginLeft: '5px' }} />
           </Button>
           <Button
-            style={{
-              fontSize: '1.1rem',
-              backgroundColor: '#3265A7',
-              color: '#FFFFFF',
-              fontWeight: 'bold',
-            }}
+            style={materialUiStyling}
             className="ms-5 hero_button p-3"
             href="https://play.google.com/store/apps/details?id=insurance.point.bs"
             target="_blank"

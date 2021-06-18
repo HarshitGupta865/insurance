@@ -10,8 +10,12 @@
   text-shadow: 2px 2px 3px #000000;
 }
 
+.herosection {
+  margin-top: var(--font-size-ultimate);
+}
+
 .hero_para {
-  font-size: var(--font-size-medium-1);
+  font-size: var(--font-size-medium-2);
   font-weight: 300;
   line-height: var(--line-height-small);
 }
@@ -97,13 +101,19 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1450px) {
   .hero_para {
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
+    font-size: var(--font-size-medium-1);
+  }
+  .herosection {
+    margin-top: 10rem;
   }
   .hero_header {
-    font-size: var(--font-size-large);
+    /* font-size: var(--font-size-large); */
+    font-size: var(--font-size-medium-3);
   }
   .change_content {
-    font-size: var(--font-size-medium-1);
+    /* font-size: var(--font-size-medium-2); */
+    font-size: 3.5rem;
   }
 }
 
@@ -112,7 +122,7 @@
     font-size: 2.5rem;
   }
   .hero_header {
-    font-size: var(--font-size-medium-1);
+    font-size: var(--font-size-medium-2);
   }
   .change_content {
     font-size: var(--font-size-medium);
@@ -124,7 +134,7 @@
     font-size: var(--font-size-small-1);
   }
   .hero_header {
-    font-size: 3rem;
+    font-size: var(--font-size-medium-1);
   }
   .change_content {
     font-size: var(--font-size-normal-1);
