@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
+import Navbar from '../Navbar/navbar';
 import ExploreIcon from '@material-ui/icons/Explore';
 import ShopIcon from '@material-ui/icons/Shop';
 import '../../index.css';
@@ -8,6 +9,7 @@ import './Herosection.css';
 const Herosection = () => {
   return (
     <main className="main_herosection d-flex justify-content-center flex-column">
+      <Navbar />
       <section className="ms-5 mt-5 text-left herosection">
         <p className="hero_para">
           Welcome To,
