@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Logo from '../../Assets/Images/logo.png';
 import { faBars } from '@fortawesome/fontawesome-free-solid';
+
 export default function navbar(){
     return(
         <div>
@@ -65,5 +66,5 @@ export default function navbar(){
             </div>
             </nav>
         </div>
-    );
+  );
 }
