@@ -3,6 +3,17 @@
 .navbar_css{
     font-family: var(--poppins);
     background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+}
+
+.dropdown-menu{
+  font-size: var(--font-size-normal);
+}
+
+.navbar-nav .dropdown-menu {
+  position: inherit;
+  background-color: aliceblue;
 }
 
 .nav-width{
