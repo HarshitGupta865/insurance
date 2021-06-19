@@ -50,15 +50,8 @@
   }
 }
 
-<<<<<<< HEAD
-/* @media only screen and (max-width: 600px) {
-  .social_icons {
-    margin: 1.4rem;
-    font-size: 2.5rem;
-=======
 @media only screen and (max-width: 992px) {
   .footer_para {
     font-size: var(--font-size-small);
->>>>>>> c42f41fc770ac411b690398f3e2c3be7d3a8dd80
   }
-} */
+} 
