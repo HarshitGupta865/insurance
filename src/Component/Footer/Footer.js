@@ -25,7 +25,7 @@ function Footer() {
   return (
     <>
       {/* <!-- Footer --> */}
-      <footer className="text-center main_footer">
+      <footer className="text-center main_footer p_over">
         {/* <!-- Section: Social media --> */}
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           {/* <!-- Left --> */}

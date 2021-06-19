@@ -6,11 +6,15 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // --------------------------------------------------COMPONENTS-------------------------------------
 
 import Footer from '../src/Component/Footer/Footer';
+import Navbar from '../src/Component/Navbar/navbar';
+import Map from '../src/Component/Map/map';
 
 function App() {
   return (
     <>
-      <Footer />
+      <Navbar/>
+      <Map />
+      {/* <Footer /> */}
     </>
   );
 }
