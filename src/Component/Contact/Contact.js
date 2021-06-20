@@ -14,7 +14,7 @@ import {
 export default function Contact(){
     return(
         <div className="contact-main">
-            <div className="row">
+            <div className="row contact-main-div">
                 <div className="col-lg-7 box-left col-sm-12">
                     <div className="contact-title">
                         <div className="contact-title-number">
@@ -85,7 +85,7 @@ export default function Contact(){
                             <span>SEND US<br/>A MESSAGE</span>
                         </div>
                     </div>
-                    <div className='contact-form'>
+                    <div className='contact-form pt-4'>
                         <div className="input-group mb-3 name-input mt-5">
                             <input type="text" className="form-control" placeholder="Your name" aria-label="Username" aria-describedby="basic-addon1"/>
                         </div>

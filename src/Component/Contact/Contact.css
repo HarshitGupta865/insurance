@@ -7,18 +7,20 @@
     background-position: center;
 }
 
+.contact-main-div{
+    padding-top: 5%;
+}
+
 .box-left{
     background: rgba(216, 48, 60, 0.15) 0% 0% no-repeat padding-box;
     color: white;
     padding-left: 2%;
-    padding-top: 10%;
 }
 
 .box-right{
     background: rgba(50, 101, 167, 0.15) 0% 0% no-repeat padding-box;
     color: white;
     padding-left: 2%;
-    padding-top: 10%;
 }
 
 .contact-title{
@@ -44,7 +46,7 @@
 
 .social-icons{
     display: grid;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 a{
@@ -53,7 +55,8 @@ a{
 
 .link{
     margin-left: 2%;
-    font-size: xx-large;
+    font-size: 25px;
+    font-weight: 200;
 }
 
 .name-input{
@@ -89,9 +92,6 @@ a{
 /* --------------------------------------------------RESPONSIVENESS------------------------------------ */
 
 @media only screen and (max-width: 1200px) {
-  .contact-main{
-      text-align: center;
-  }
   .sub-heading{
       width: 100%;
       text-align: center;
@@ -101,4 +101,48 @@ a{
       margin-left: auto;
       margin-right: auto;
   }
-} 
+  .contact-title-number{
+    font-size: 75px;
+    color: #D8303C;
+    font-weight: 600;
+    }
+    .contact-title-name{
+    font-size: 35px;
+    font-weight: 600;
+    }
+    .box-left{
+    padding-top: 25%;
+    }
+    .sub-heading{
+    font-size: 15px;
+    padding-top: 5%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .link{
+    margin-left: 2%;
+    font-size: 15px;
+    font-weight: 200;
+    }
+    .social-icons{
+    display: grid;
+    font-size: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .name-input{
+    width: 80%;
+    height: 40px;
+    }   
+    .submit-btn{
+    text-align: center;
+    font-size:large;
+    border-radius: 14px;
+    font-weight: 500;
+    }
+    .box-right{
+    text-align: center;
+    }
+}   
