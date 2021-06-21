@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.service_components_container {
+  font-family: var(--poppins);
+}
+
+.main_service_section {
+  background-image: url('../../Assets/Images/bg.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  background-color: var(--white);
+}
+
+.main_service_header,
+.topics_header {
+  margin-top: var(--font-size-large);
+  color: var(--pure-white);
+  font-size: var(--font-size-huge);
+  text-shadow: 2px 2px 3px #000000;
+}
+
+.topics_header {
+  color: var(--blue);
+  text-shadow: var(--text-shadow-1);
+  margin-bottom: var(--font-size-medium-2);
+}
+
+.content_para {
+  font-size: var(--font-size-normal-1);
+}
+
+.blue_content {
+  color: var(--blue);
+}
+
+/* ----------------------------------------RESPONSIVENESS---------------------------------------------- */
+
+@media only screen and (min-width: 992px) and (max-width: 1450px) {
+  .main_service_header,
+  .topics_header {
+    font-size: var(--font-size-medium-3);
+  }
+  .content_para {
+    font-size: var(--font-size-normal);
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .main_service_header,
+  .topics_header {
+    font-size: var(--font-size-medium-2);
+  }
+  .content_para {
+    font-size: var(--font-size-normal);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main_service_header,
+  .topics_header {
+    font-size: var(--font-size-medium-1);
+  }
+  .content_para {
+    font-size: var(--font-size-small-1);
+  }
+}

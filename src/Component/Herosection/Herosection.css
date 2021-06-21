@@ -2,12 +2,12 @@
 
 .main_herosection {
   font-family: var(--poppins);
-  background-image: url('../../Assets/Images/bg1.jpg');
+  background-image: url('../../Assets/Images/bg.jpg');
   min-height: 100vh;
   background-size: cover;
   background-position: center;
   color: var(--pure-white);
-  text-shadow: 2px 2px 3px #000000;
+  text-shadow: var(--text-shadow);
 }
 
 .herosection {
