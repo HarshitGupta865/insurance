@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Button from '@material-ui/core/Button';
 import ShopIcon from '@material-ui/icons/Shop';
@@ -10,16 +11,14 @@ import {
   faWhatsapp,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
-
-import '../../index.css';
-import './Footer.css';
-import { NavLink } from 'react-router-dom';
 import {
   faEnvelope,
   faGem,
   faHome,
   faPhone,
 } from '@fortawesome/fontawesome-free-solid';
+import '../../index.css';
+import './Footer.css';
 
 const materialUiStyling = {
   fontSize: '1.1rem',
@@ -136,36 +135,36 @@ function Footer() {
                 {/* <!-- Links --> */}
                 <h3 className="fw-bold mb-4 footer_header">EXPLORE</h3>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/about"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Angular
-                  </a>
+                    About Us
+                  </NavLink>
                 </p>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/awards-and-certifications"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    React
-                  </a>
+                    Awards
+                  </NavLink>
                 </p>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/gallery"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Vue
-                  </a>
+                    Gallery
+                  </NavLink>
                 </p>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/awards-and-certifications"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Laravel
-                  </a>
+                    Certifications
+                  </NavLink>
                 </p>
               </div>
               {/* <!-- Grid column --> */}
@@ -175,52 +174,52 @@ function Footer() {
                 {/* <!-- Links --> */}
                 <h3 className="fw-bold mb-4 footer_header">SERVICES</h3>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/services/LIC-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    LIC Insurances
-                  </a>
+                    LIC Insurance
+                  </NavLink>
                 </p>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/services/health-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Health Insurances
-                  </a>
+                    Health Insurance
+                  </NavLink>
                 </p>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/services/vehicle-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Vehicle Insurances
-                  </a>
+                    Vehicle Insurance
+                  </NavLink>
                 </p>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/services/accidental-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Accidental Insurances
-                  </a>
+                    Accidental Insurance
+                  </NavLink>
                 </p>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/services/travel-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Travel Insurances
-                  </a>
+                    Travel Insurance
+                  </NavLink>
                 </p>
                 <p className="footer_para">
-                  <a
-                    href="#!"
+                  <NavLink
+                    to="/services/other-financial-services"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Other Insurances...
-                  </a>
+                    Other Services
+                  </NavLink>
                 </p>
               </div>
               {/* <!-- Grid column --> */}

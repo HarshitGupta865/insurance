@@ -1,5 +1,7 @@
 import React from 'react';
-import './navbar.css';
+import { NavLink } from 'react-router-dom';
+import './Navbar.css';
+import '../../index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,9 +13,9 @@ export default function navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar_css">
         <div className="container-fluid nav-width">
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to="/">
             <img src={Logo} width="80px" height="80px" />
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -31,14 +33,14 @@ export default function navbar() {
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   HOME
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  FEATURES
-                </a>
+                <NavLink className="nav-link" to="/about">
+                  ABOUT US
+                </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -53,101 +55,141 @@ export default function navbar() {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      LIC OF INDIA
-                    </a>
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/LIC-insurance"
+                    >
+                      LIC INSURANCES
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/health-insurance"
+                    >
                       STAR HEALTH INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/vehicle-insurance"
+                    >
                       VEHICLE INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/accidental-insurance"
+                    >
                       ACCIDENTAL INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/travel-insurance"
+                    >
                       TRAVEL INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      COMMERCIAL LINE PRODUCT INSURANCE
-                    </a>
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/commercial-product-insurance"
+                    >
+                      COMMERCIAL PRODUCT INSURANCE
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/marine-insurance"
+                    >
                       MARINE INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/machine-insurance"
+                    >
                       MACHINE INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/company-insurance"
+                    >
                       COMPANY INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/office-insurance"
+                    >
                       OFFICE INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/hotel-insurance"
+                    >
                       HOTEL INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/house-insurance"
+                    >
                       HOUSE INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/shop-insurance"
+                    >
                       SHOP INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/flat-insurance"
+                    >
                       FLAT INSURANCE
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      OTHER IMPORTANT FINANCIAL SERVICES
-                    </a>
+                    <NavLink
+                      className="dropdown-item"
+                      to="/services/other-financial-services"
+                    >
+                      OTHER FINANCIAL SERVICES
+                    </NavLink>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  AWARDS
-                </a>
+                <NavLink className="nav-link" to="/gallery">
+                  GALLERY
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  REVIEW
-                </a>
+                <NavLink className="nav-link" to="/awards-and-certifications">
+                  AWARD
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  CONTACT
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  FAQ
-                </a>
+                <NavLink className="nav-link" to="/contact">
+                  CONTACT US
+                </NavLink>
               </li>
             </ul>
           </div>
