@@ -12,7 +12,7 @@ const buttonStyling = {
 
 function Error(props) {
   return (
-    <div className="text-center d-flex flex-column justify-content-center align-items-center error_page_container">
+    <div className="text-center d-flex flex-column justify-content-center align-items-center main_error">
       <h1 className="error_header">404</h1>
       <p className="error_para">
         Sorry, the page you searched for can't be found !

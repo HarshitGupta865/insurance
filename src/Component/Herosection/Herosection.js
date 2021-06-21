@@ -10,6 +10,7 @@ const materialUiStyling = {
   backgroundColor: '#3265A7',
   color: '#FFFFFF',
   fontWeight: 'bold',
+  textShadow: '2px 1px 2px #000000',
 };
 
 const Herosection = () => {
@@ -35,7 +36,7 @@ const Herosection = () => {
         <div className="button_section pt-5 d-flex me-5">
           <Button
             style={materialUiStyling}
-            className="me-5 hero_button p-3"
+            className="me-5 p-3"
             variant="contained"
             size="small"
           >
@@ -44,7 +45,7 @@ const Herosection = () => {
           </Button>
           <Button
             style={materialUiStyling}
-            className="ms-5 hero_button p-3"
+            className="ms-5 p-3"
             href="https://play.google.com/store/apps/details?id=insurance.point.bs"
             target="_blank"
             variant="contained"

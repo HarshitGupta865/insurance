@@ -1,5 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Button from '@material-ui/core/Button';
+import ShopIcon from '@material-ui/icons/Shop';
 import {
   faFacebookF,
   faTwitter,
@@ -18,6 +20,14 @@ import {
   faHome,
   faPhone,
 } from '@fortawesome/fontawesome-free-solid';
+
+const materialUiStyling = {
+  fontSize: '1.1rem',
+  backgroundColor: '#0172b6',
+  color: '#FFFFFF',
+  fontWeight: 'bold',
+  textShadow: '2px 1px 2px #000000',
+};
 
 function Footer() {
   return (
@@ -107,13 +117,24 @@ function Footer() {
                   content. Lorem ipsum dolor sit amet, consectetur adipisicing
                   elit.
                 </p>
+                <Button
+                  style={materialUiStyling}
+                  className="mt-sm-4 p-3"
+                  href="https://play.google.com/store/apps/details?id=insurance.point.bs"
+                  target="_blank"
+                  variant="contained"
+                  size="small"
+                >
+                  GET OUR APP
+                  <ShopIcon fontSize="large" style={{ marginLeft: '5px' }} />
+                </Button>
               </div>
               {/* <!-- Grid column --> */}
 
               {/* <!-- Grid column --> */}
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-5">
                 {/* <!-- Links --> */}
-                <h3 className="fw-bold mb-4 footer_header">QUICK LINKS</h3>
+                <h3 className="fw-bold mb-4 footer_header">EXPLORE</h3>
                 <p className="footer_para">
                   <a
                     href="#!"
@@ -158,7 +179,7 @@ function Footer() {
                     href="#!"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Pricing
+                    LIC Insurances
                   </a>
                 </p>
                 <p className="footer_para">
@@ -166,7 +187,7 @@ function Footer() {
                     href="#!"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Settings
+                    Health Insurances
                   </a>
                 </p>
                 <p className="footer_para">
@@ -174,7 +195,7 @@ function Footer() {
                     href="#!"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Orders
+                    Vehicle Insurances
                   </a>
                 </p>
                 <p className="footer_para">
@@ -182,7 +203,23 @@ function Footer() {
                     href="#!"
                     className="footer_links text-decoration-none fw-bold"
                   >
-                    Help
+                    Accidental Insurances
+                  </a>
+                </p>
+                <p className="footer_para">
+                  <a
+                    href="#!"
+                    className="footer_links text-decoration-none fw-bold"
+                  >
+                    Travel Insurances
+                  </a>
+                </p>
+                <p className="footer_para">
+                  <a
+                    href="#!"
+                    className="footer_links text-decoration-none fw-bold"
+                  >
+                    Other Insurances...
                   </a>
                 </p>
               </div>

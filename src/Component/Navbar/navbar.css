@@ -24,6 +24,8 @@
 =======
 
 .navbar_css {
+  position: absolute;
+  width: 100%;
   font-family: var(--poppins);
   background-color: rgba(0, 0, 0, 0.4);
 }
