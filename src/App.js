@@ -5,18 +5,11 @@ import { Route, Switch } from 'react-router-dom';
 
 // --------------------------------------------------COMPONENTS-------------------------------------
 
-<<<<<<< HEAD
 import Footer from '../src/Component/Footer/Footer';
-import Herosection from '../src/Component/Herosection/Herosection';
-import Navbar from '../src/Component/Navbar/navbar';
-<<<<<<< HEAD
-import Contact from '../src/Component/Contact/Contact'
-=======
-// import Error from '../src/Component/Error/Error';
->>>>>>> d725073 (Pull final navbar)
-=======
 import Navbar from './Component/Navbar/Navbar';
-import Footer from './Component/Footer/Footer';
+import Contact from '../src/Component/Contact/Contact';
+import Error from '../src/Component/Error/Error';
+import MainFooter from './Component/Footer/Footer';
 import Home from '../src/Component/Home/Home';
 import About from '../src/Component/About/About';
 
@@ -42,18 +35,13 @@ import Other from '../src/Component/Services/Other/Other';
 
 import Gallery from '../src/Component/Gallery/Gallery';
 import Award from '../src/Component/Award/Award';
-// import Contact from '../src/Component/Contact/Contact';
 import Faq from '../src/Component/Faq/Faq';
-import Error from '../src/Component/Error/Error';
->>>>>>> b2d92cd (Routing done)
+import MainError from '../src/Component/Error/Error';
 
 function App() {
   return (
     <>
       <Navbar />
-<<<<<<< HEAD
-      <Contact />
-=======
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
@@ -90,12 +78,11 @@ function App() {
         {/* ----------------------------------------------------SERVICES ROUTING ENDS----------------------------- */}
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/awards-and-certifications" component={Award} />
-        {/* <Route exact path="/contact" component={Contact} /> */}
+        <Route exact path="/contact" component={Contact} />
         <Route exact path="/faq" component={Faq} />
-        <Route component={Error} />
+        <Route component={MainError} />
       </Switch>
->>>>>>> b2d92cd (Routing done)
-      <Footer />
+      <MainFooter />
     </>
   );
 }
