@@ -90,8 +90,11 @@ a {
 }
 
 /* --------------------------------------------------RESPONSIVENESS------------------------------------ */
-
 @media only screen and (max-width: 1200px) {
+
+.contact-main-div{
+    padding-top: 10%;
+}
   .sub-heading {
     width: 100%;
     text-align: center;
@@ -109,9 +112,6 @@ a {
   .contact-title-name {
     font-size: 35px;
     font-weight: 600;
-  }
-  .box-left {
-    padding-top: 25%;
   }
   .sub-heading {
     font-size: 15px;
@@ -146,3 +146,41 @@ a {
     text-align: center;
   }
 }
+
+@media only screen and (min-width: 1500px) and (max-width: 1600px){
+    .contact-main-div{
+        padding-top: 8%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1580px){
+    .contact-main-div{
+        padding-top: 7%;
+    }
+    .contact-title-number{
+        font-size: 100px;
+    }
+    .contact-title-name{
+        font-size: 50px;
+    }
+    .name-input,
+    .comment{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 992px){
+    .contact-main-div{
+        padding-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .contact-main-div{
+        padding-top: 25%;
+    }
+}
+
