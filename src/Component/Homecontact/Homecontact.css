@@ -1,0 +1,20 @@
+/* .herocontact-div{
+    background-color: #3265A7;
+} */
+
+.second-column{
+    background-image: url('../../Assets/Images/herocontact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.hero-contact-form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-div{
+    width: 100%;
+}
