@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 :root {
   --font-size-small: 1.2rem;
   --font-size-small-1: 1.4rem;
@@ -31,6 +33,7 @@
   --text-shadow-1: 2px 1px 2px #000000;
 
   --poppins: 'Poppins', sans-serif;
+  --quote: 'Secular One', sans-serif;
 }
 
 * {
