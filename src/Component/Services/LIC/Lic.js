@@ -6,7 +6,7 @@ import './Lic.css';
 const Lic = () => {
   return (
     <main className="service_components_container">
-      <section className="main_service_section d-flex justify-content-center align-items-center">
+      <section className="lic_service_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center main_service_header">
           LIC INSURANCE
         </h1>
@@ -14,7 +14,7 @@ const Lic = () => {
       <section className="content">
         <div className="container-fluid">
           <div className="row">
-            <div className="col col-md-6 col-12 left_column">
+            <div className="col col-md-7 pe-sm-5 col-12 left_column">
               <article>
                 <h1 className="text-center topics_header">
                   What is LIC Inusrance ?
@@ -80,7 +80,7 @@ const Lic = () => {
                 </h1>
                 <p className="mx-sm-5 mx-3 content_para">
                   <ol>
-                    <li>
+                    <li className="mb-4">
                       <span className="blue_content fst-italic fw-bold">
                         {' '}
                         Industry leader:
@@ -89,7 +89,7 @@ const Lic = () => {
                       has a technologically advanced network to provide you the
                       most advanced and efficient services.
                     </li>
-                    <li>
+                    <li className="mb-4">
                       <span className="blue_content fst-italic fw-bold">
                         {' '}
                         An array of plans:
@@ -99,7 +99,7 @@ const Lic = () => {
                       a complete basket of plans from Endowment plans to Money
                       Back plans cover to its customers.
                     </li>
-                    <li>
+                    <li className="mb-4">
                       <span className="blue_content fst-italic fw-bold">
                         {' '}
                         Easy claim procedure:
@@ -109,7 +109,7 @@ const Lic = () => {
                       Claim Settlement Ratio across the industry for the year
                       2015-16.
                     </li>
-                    <li>
+                    <li className="mb-4">
                       <span className="blue_content fst-italic fw-bold">
                         {' '}
                         Unmatchable customer support:
@@ -118,7 +118,7 @@ const Lic = () => {
                       industry. It provided 100% grievances settlement for the
                       year 2015-16.
                     </li>
-                    <li>
+                    <li className="mb-4">
                       <span className="blue_content fst-italic fw-bold">
                         {' '}
                         Simplified process:
@@ -128,7 +128,7 @@ const Lic = () => {
                       policyholders. You can get the complete detail of your
                       policy sent on an SMS.
                     </li>
-                    <li>
+                    <li className="mb-4">
                       <span className="blue_content fst-italic fw-bold">
                         {' '}
                         Most trusted:
@@ -141,9 +141,348 @@ const Lic = () => {
                   </ol>
                 </p>
               </article>
+              <article>
+                <h1 className="text-center topics_header">
+                  Introductory Video
+                </h1>
+                <div className="iframe_container mb-5">
+                  <iframe
+                    className="responsive_iframe"
+                    src="https://www.youtube.com/embed/pCV8HdBV_FY"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </article>
             </div>
-            <div className="col col-md-6 col-12 right_column">
+            <div className="col col-md-5 col-12 right_column">
               <h1 className="text-center topics_header">Quick links !</h1>
+              <section className="mx-sm-5 mx-3">
+                <h1 className="text-center fw-bold mb-5">GUIDELINES</h1>
+
+                <span className="content_para blue_content fw-bold fst-italic">
+                  CUSTOMER SERVICES:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-4">
+                    <a
+                      className="fw-bold"
+                      href="https://ebiz.licindia.in/D2CPM/#DirectPay"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to pay your renewal premium
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      className="fw-bold"
+                      href="https://ebiz.licindia.in/D2CPM/#qni/basicinfo"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to calculate your premium
+                    </a>
+                  </li>
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/Customer-Services/Update-Your-Contact-Details"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to update your contact details
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic">
+                  LIC PLANS:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-4">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/Products/Insurance-Plan"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to see insurance plans
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/Products/Pension-Plans"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to see pension plans
+                    </a>
+                  </li>
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/Products/Health-Plans"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to see health plans
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic">
+                  POLICY INFORMATION:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-4">
+                    <a
+                      className="fw-bold"
+                      href="https://ebiz.licindia.in/D2CPM/#Login"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here for registered Customer Portal
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/Customer-Services/Policy-Status.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click Here for any Policy information with DOB
+                    </a>
+                  </li>
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://licindia.in/Customer-Services/Policy-Guidelines-Helpline"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to see LIC guidelines & helplines.
+                    </a>
+                  </li>
+                </ul>
+                <h1 className="text-center fw-bold py-5">FORMS</h1>
+                <span className="content_para blue_content fw-bold fst-italic">
+                  Death Claims:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-4">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/FORM-NO-3783-Claim-Form_A.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here for Claim Form 'A' in Form No.3783.
+                    </a>
+                  </li>
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/Form-No-3783A.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here for Claim From no.3783(A)
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Maturity Claims:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/Bottom-Links/Download-Forms/form_no_3825"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download Form No. 3825
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Survival Benefit Claims forms:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/FORM_NO_5180-(1).pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download Form No.5180
+                    </a>
+                  </li>
+                </ul>
+
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Revival forms:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-4">
+                    Revival of Lapsed Policy- Form no. 680 <br />
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/FORM_NO_5180-(1).pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                  <li className="mb-4">
+                    Revival of Lapsed policy - Form no. 700 <br />
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/FORM-NO-700-(1).pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                  <li className="mb-5">
+                    Revival of lapsed Policy- Form no. 720 <br />
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/FORM-NO-720.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  IPP-NEFT Mandate Form:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/NEFT-Application-Form.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Certificate of Existence:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/Certficate-of-Existence.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  IPP-Letter of Indemnity:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/Form-of-Letter-of-Indemnity.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Neft Mandate Form:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/NEFT_MANDATE_FORM.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Contact Details Form:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/Form-for-contact-details-of-PH.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Health Insurance Forms:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/Bottom-Links/Download-Forms/Health-Insurance-Form"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Pre-contract Integrity Pact:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/LIC_Integrity_pact.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to download
+                    </a>
+                  </li>
+                </ul>
+                <span className="content_para blue_content fw-bold fst-italic pt-3 ">
+                  Forms required for issuance of duplicate policy:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-5">
+                    <a
+                      className="fw-bold"
+                      href="https://www.licindia.in/getattachment/Bottom-Links/Download-Forms/form-no-3756-new.pdf.aspx"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Form No. 3756
+                    </a>
+                  </li>
+                </ul>
+              </section>
             </div>
           </div>
         </div>

@@ -13,8 +13,13 @@ export default function navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar_css">
         <div className="container-fluid nav-width">
-          <NavLink className="navbar-brand" to="/">
-            <img src={Logo} width="80px" height="80px" />
+          <NavLink
+            className="navbar-brand"
+            exact
+            activeClassName="active_class"
+            to="/"
+          >
+            <img src={Logo} width="80px" height="80px" alt="logo" />
           </NavLink>
           <button
             className="navbar-toggler"
@@ -33,12 +38,23 @@ export default function navbar() {
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/">
+                <NavLink
+                  className="nav-link"
+                  aria-current="page"
+                  exact
+                  activeClassName="active_class"
+                  to="/"
+                >
                   HOME
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
+                <NavLink
+                  className="nav-link"
+                  exact
+                  activeClassName="active_class"
+                  to="/about"
+                >
                   ABOUT US
                 </NavLink>
               </li>
@@ -57,6 +73,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/LIC-insurance"
                     >
                       LIC INSURANCES
@@ -65,6 +83,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/health-insurance"
                     >
                       STAR HEALTH INSURANCE
@@ -73,6 +93,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/vehicle-insurance"
                     >
                       VEHICLE INSURANCE
@@ -81,6 +103,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/accidental-insurance"
                     >
                       ACCIDENTAL INSURANCE
@@ -89,6 +113,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/travel-insurance"
                     >
                       TRAVEL INSURANCE
@@ -97,14 +123,18 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/commercial-product-insurance"
                     >
-                      COMMERCIAL PRODUCT INSURANCE
+                      COMMERCIAL CARE INSURANCE
                     </NavLink>
                   </li>
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/marine-insurance"
                     >
                       MARINE INSURANCE
@@ -113,6 +143,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/machine-insurance"
                     >
                       MACHINE INSURANCE
@@ -121,6 +153,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/company-insurance"
                     >
                       COMPANY INSURANCE
@@ -129,6 +163,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/office-insurance"
                     >
                       OFFICE INSURANCE
@@ -137,6 +173,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/hotel-insurance"
                     >
                       HOTEL INSURANCE
@@ -145,6 +183,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/house-insurance"
                     >
                       HOUSE INSURANCE
@@ -153,6 +193,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/shop-insurance"
                     >
                       SHOP INSURANCE
@@ -161,6 +203,8 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/flat-insurance"
                     >
                       FLAT INSURANCE
@@ -169,6 +213,28 @@ export default function navbar() {
                   <li>
                     <NavLink
                       className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
+                      to="/services/fire-and-perils-insurance"
+                    >
+                      FIRE & PERILS INSURANCE
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
+                      to="/services/cattle-insurance"
+                    >
+                      CATTLE INSURANCE
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className="dropdown-item"
+                      exact
+                      activeClassName="active_class"
                       to="/services/other-financial-services"
                     >
                       OTHER FINANCIAL SERVICES
@@ -177,17 +243,32 @@ export default function navbar() {
                 </ul>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/gallery">
+                <NavLink
+                  className="nav-link"
+                  exact
+                  activeClassName="active_class"
+                  to="/gallery"
+                >
                   GALLERY
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/awards-and-certifications">
+                <NavLink
+                  className="nav-link"
+                  exact
+                  activeClassName="active_class"
+                  to="/awards-and-certifications"
+                >
                   AWARD
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
+                <NavLink
+                  className="nav-link"
+                  exact
+                  activeClassName="active_class"
+                  to="/contact"
+                >
                   CONTACT US
                 </NavLink>
               </li>

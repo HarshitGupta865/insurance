@@ -16,8 +16,6 @@
 
 .hero_para {
   font-size: var(--font-size-medium-2);
-  font-weight: 300;
-  line-height: var(--line-height-small);
 }
 
 .first_span,
@@ -101,7 +99,6 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1450px) {
   .hero_para {
-    /* font-size: 3.5rem; */
     font-size: var(--font-size-medium-1);
   }
   .herosection {
