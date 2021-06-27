@@ -2,14 +2,99 @@ import React from 'react';
 import '../../../index.css';
 import '../Main_services.css';
 import './Flat.css';
+import FlatPDF from '../../../Assets/Forms/Flat_Insurance.pdf';
 
 const Flat = () => {
   return (
-    <section className="main_service_section d-flex justify-content-center align-items-center">
-      <h1 className="mt-5 fw-bold text-center text-uppercase service_header">
-        Flat INSURANCE
-      </h1>
-    </section>
+    <main className="service_components_container">
+      <section className="accidental_service_bg d-flex justify-content-center align-items-center">
+        <h1 className="fw-bold text-center main_service_header">
+          FLAT INSURANCE
+        </h1>
+      </section>
+      <section className="content">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col col-md-6 col-12 left_column">
+              <article>
+                <h1 className="text-center topics_header">
+                  What is Flat Inusrance ?
+                </h1>
+                <p className="mx-sm-5 mx-3 content_para">
+                  Flat insurance{' '}
+                  <span className="fw-bold">
+                    offers coverage to a house and its content
+                  </span>{' '}
+                  from unforeseen circumstances such as{' '}
+                  <span className="fw-bold">
+                    damages caused by natural calamities (earthquake, fire,
+                    flood, storm, landslide, etc.)
+                  </span>
+                  and man-made activities (theft, burglary, terrorism, riot,
+                  etc.). A flat insurance policy cover your property to ensure
+                  it always stands strong to give you the shelter and protection
+                  you need. Just by taking fire precaution or putting door
+                  locks, your house isn't safe.
+                  <span className="fw-bold">
+                    Choose the best flat insurance plan that evaluates the value
+                    of your home structure and content to derive a
+                    pocket-friendly premium for securing your home.
+                  </span>
+                </p>
+              </article>
+              <article>
+                <h1 className="text-center topics_header">
+                  Benefits Of Flat Insurance.
+                </h1>
+                <p className="mx-sm-5 mx-3 content_para">
+                  <ol>
+                    <li className="mb-4">
+                      <span className="blue_content fst-italic fw-bold">
+                        {' '}
+                        Complete coverage:{' '}
+                      </span>
+                      Get comprehensive coverage to both content and structure
+                      of your Property.
+                    </li>
+                    <li className="mb-4">
+                      <span className="blue_content fst-italic fw-bold">
+                        {' '}
+                        Cheap availability:{' '}
+                      </span>
+                      Buy flat insurance policy at comparatively lower premium
+                      rates than other insurance policies.
+                    </li>
+                    <li className="mb-4">
+                      <span className="blue_content fst-italic fw-bold">
+                        {' '}
+                        Peace of mind:{' '}
+                      </span>
+                      Reduce stress and tension level since you’ll have a
+                      Property insurance to fall back to, in case of unforeseen
+                      circumstances.
+                    </li>
+                  </ol>
+                </p>
+              </article>
+            </div>
+            <div className="col col-md-6 col-12 right_column">
+              <h1 className="text-center topics_header">Quick links !</h1>
+              <h1 className="text-center fw-bold mb-5">FORMS</h1>
+              <center className="content_para">
+                <a
+                  className="fw-bold"
+                  href={FlatPDF}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Click here to open the Flat Insurance brochure
+                </a>
+              </center>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 };
 

@@ -9,7 +9,6 @@ import Footer from '../src/Component/Footer/Footer';
 import Navbar from './Component/Navbar/Navbar';
 import Contact from '../src/Component/Contact/Contact';
 import Error from '../src/Component/Error/Error';
-import MainFooter from './Component/Footer/Footer';
 import Home from '../src/Component/Home/Home';
 import About from '../src/Component/About/About';
 
@@ -29,6 +28,8 @@ import Hotel from '../src/Component/Services/Hotel/Hotel';
 import House from '../src/Component/Services/House/House';
 import Shop from '../src/Component/Services/Shop/Shop';
 import Flat from '../src/Component/Services/Flat/Flat';
+import Cattle from '../src/Component/Services/Cattle/Cattle';
+import Fire from '../src/Component/Services/Fire/Fire';
 import Other from '../src/Component/Services/Other/Other';
 
 // ----------------------------------------------------SERVICE SECTION COMPONENTS ENDS---------------------
@@ -36,7 +37,6 @@ import Other from '../src/Component/Services/Other/Other';
 import Gallery from '../src/Component/Gallery/Gallery';
 import Award from '../src/Component/Award/Award';
 import Faq from '../src/Component/Faq/Faq';
-import MainError from '../src/Component/Error/Error';
 
 function App() {
   return (
@@ -70,6 +70,12 @@ function App() {
         <Route exact path="/services/house-insurance" component={House} />
         <Route exact path="/services/shop-insurance" component={Shop} />
         <Route exact path="/services/flat-insurance" component={Flat} />
+        <Route exact path="/services/cattle-insurance" component={Cattle} />
+        <Route
+          exact
+          path="/services/fire-and-perils-insurance"
+          component={Fire}
+        />
         <Route
           exact
           path="/services/other-financial-services"
@@ -80,9 +86,10 @@ function App() {
         <Route exact path="/awards-and-certifications" component={Award} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/faq" component={Faq} />
-        <Route component={MainError} />
+        <Route exact path="/error" component={Error} />
+        <Route component={Error} />
       </Switch>
-      <MainFooter />
+      <Footer />
     </>
   );
 }

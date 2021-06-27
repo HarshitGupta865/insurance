@@ -28,6 +28,8 @@ const materialUiStyling = {
   textShadow: '2px 1px 2px #000000',
 };
 
+const currentYear = new Date().getFullYear();
+
 function Footer() {
   return (
     <>
@@ -38,7 +40,7 @@ function Footer() {
           {/* <!-- Left --> */}
           <div className="p-4 d-none d-lg-block">
             <span className="fw-bold fst-italic get_connected">
-              Get connected with us on social networks:
+              Get connected with us on social networks -------------{'>'}
             </span>
           </div>
           {/* <!-- Left --> */}
@@ -112,9 +114,9 @@ function Footer() {
                   {'  '}INSURANCE POINT OFFICE
                 </h3>
                 <p className="footer_para">
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  Insurance Point Office helps customers in all their financial
+                  consultations and advisories, with all the utilities of their
+                  portfolio managements and wealth making.
                 </p>
                 <Button
                   style={materialUiStyling}
@@ -274,7 +276,7 @@ function Footer() {
 
         {/* <!-- Copyright --> */}
         <div className="text-center fw-bold p-4 mb-0 mt-sm-3 copyright">
-          &#169; 2021, Insurance Point Office | All Rights Reserved.
+          &#169; {currentYear}, Insurance Point Office | All Rights Reserved.
         </div>
         {/* <!-- Copyright --> */}
       </footer>
