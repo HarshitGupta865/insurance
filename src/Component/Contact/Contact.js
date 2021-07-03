@@ -1,4 +1,5 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -12,6 +13,20 @@ import {
   import { faEnvelope } from '@fortawesome/fontawesome-free-solid';
 
 export default function Contact(){
+
+    function sendEmail(e){
+        e.preventDefault();
+
+        emailjs.sendForm('service_wdws7hk', 'template_7qioo8q', e.target, 'user_eoORToZFcMaWxixWf1ikD')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+
+          e.target.reset();
+    }
+
     return(
         <div className="contact-main">
             <div className="row contact-main-div">
@@ -85,21 +100,23 @@ export default function Contact(){
                             <span>SEND US<br/>A MESSAGE</span>
                         </div>
                     </div>
-                    <div className='contact-form pt-4'>
-                        <div className="input-group mb-3 name-input mt-5">
-                            <input type="text" className="form-control" placeholder="Your name" aria-label="Username" aria-describedby="basic-addon1"/>
+                    <form onSubmit={sendEmail}>
+                        <div className='contact-form pt-4'>
+                            <div className="input-group mb-3 name-input mt-5">
+                                <input type="text" className="form-control" placeholder="Your name" aria-label="Username" name="username" aria-describedby="basic-addon1"/>
+                            </div>
+                            <div className="input-group mb-3 name-input mt-5">
+                                <input type="text" className="form-control" placeholder="Email address" aria-label="email" name="email" aria-describedby="basic-addon1"/>
+                            </div>
+                            <div className="input-group mb-3 name-input mt-5">
+                                <input type="number" className="form-control" placeholder="Telephone number" aria-label="number" name="number" aria-describedby="basic-addon1"/>
+                            </div>
+                            <div className="input-group comment mb-5 mt-5">
+                                <textarea class="form-control" aria-label="With textarea" name="message" placeholder="Write something..."></textarea>
+                            </div>
+                            <button type="submit" className="btn submit-btn btn-lg mb-5">SUBMIT</button>
                         </div>
-                        <div className="input-group mb-3 name-input mt-5">
-                            <input type="text" className="form-control" placeholder="Email address" aria-label="email" aria-describedby="basic-addon1"/>
-                        </div>
-                        <div className="input-group mb-3 name-input mt-5">
-                            <input type="number" className="form-control" placeholder="Telephone number" aria-label="number" aria-describedby="basic-addon1"/>
-                        </div>
-                        <div className="input-group comment mb-5 mt-5">
-                            <textarea class="form-control" aria-label="With textarea" placeholder="Write something..."></textarea>
-                        </div>
-                        <button type="button" className="btn submit-btn btn-lg mb-5">SUBMIT</button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
