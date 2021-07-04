@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 export default function Review() {
   return (
-    <div>
+    <div className="review_container">
       <div>
         <h1 className="topics_header fw-bold text-center uniform_margin mt-5">
           WHAT OUR CLIENT SAYS ?

@@ -8,7 +8,7 @@ import './Homeservice.css';
 
 export default function Heroservice() {
   return (
-    <div>
+    <div className="homeservice_container">
       <div>
         <h1 className="topics_header fw-bold text-center mt-5">
           Types of Insurance Offered

@@ -3,7 +3,7 @@
   font-family: var(--poppins);
 }
 .about_bg {
-  background-image: url('../../Assets/Images/LIC_bg.jpg');
+  background-image: url('../../Assets/Images/About_us.jpg');
   min-height: 50vh;
   background-size: cover;
   background-position: center;

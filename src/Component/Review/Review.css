@@ -1,3 +1,8 @@
+.review_container {
+  background-color: var(--white);
+  margin-top: -3rem;
+}
+
 .review-maindiv {
   /* background: #3265a7 0% 0% no-repeat padding-box; */
   background: #1b7ced 0% 0% no-repeat padding-box;

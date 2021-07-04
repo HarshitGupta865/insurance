@@ -1,3 +1,7 @@
+.number_card_container {
+  background-color: var(--white);
+}
+
 .number-card-div {
   display: flex;
   width: 80%;
