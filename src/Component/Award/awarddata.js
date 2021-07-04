@@ -1,23 +1,23 @@
 const awarddata = [
   {
     id: 1,
-    image: '../Awards/award1.jpg',
+    image: '/Awards/award1.jpg',
   },
   {
     id: 2,
-    image: '../Awards/award2.jpg',
+    image: '/Awards/award2.jpg',
   },
   {
     id: 3,
-    image: '../Awards/award3.jpg',
+    image: '/Awards/award3.jpg',
   },
   {
     id: 4,
-    image: '../Awards/award4.jpg',
+    image: '/Awards/award4.jpg',
   },
   {
     id: 5,
-    image: '../Awards/award5.jpg',
+    image: '/Awards/award5.jpg',
   },
   {
     id: 6,
@@ -25,23 +25,23 @@ const awarddata = [
   },
   {
     id: 7,
-    image: '../Awards/award7.jpg',
+    image: '/Awards/award7.jpg',
   },
   {
     id: 8,
-    image: '../Awards/award8.jpg',
+    image: '/Awards/award8.jpg',
   },
   {
     id: 9,
-    image: '../Awards/award9.jpg',
+    image: '/Awards/award9.jpg',
   },
   {
     id: 10,
-    image: '../Awards/award10.jpg',
+    image: '/Awards/award10.jpg',
   },
   {
     id: 11,
-    image: '../Awards/award11.jpg',
+    image: '/Awards/award11.jpg',
   },
   {
     id: 12,
@@ -49,7 +49,7 @@ const awarddata = [
   },
   {
     id: 13,
-    image: '../Awards/award13.jpg',
+    image: '/Awards/award13.jpg',
   },
   {
     id: 14,
@@ -57,15 +57,15 @@ const awarddata = [
   },
   {
     id: 15,
-    image: '../Awards/award15.jpg',
+    image: '/Awards/award15.jpg',
   },
   {
     id: 16,
-    image: '../Awards/award16.jpg',
+    image: '/Awards/award16.jpg',
   },
   {
     id: 17,
-    image: '../Awards/award17.jpg',
+    image: '/Awards/award17.jpg',
   },
   {
     id: 18,
