@@ -1,6 +1,9 @@
 {
   "name": "insurance",
   "version": "0.1.0",
+  "engines": {
+    "node": "15.10.0"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
