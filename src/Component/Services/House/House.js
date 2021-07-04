@@ -9,7 +9,7 @@ import HousePDF3 from '../../../Assets/Forms/burglary-leaflet.pdf';
 const House = () => {
   return (
     <main className="service_components_container">
-      <section className="accidental_service_bg d-flex justify-content-center align-items-center">
+      <section className="house_service_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center main_service_header">
           HOUSE INSURANCE
         </h1>
@@ -176,16 +176,6 @@ const House = () => {
                   <iframe
                     className="responsive_iframe"
                     src="https://www.youtube.com/embed/dUZZT9PAXr0"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <div className="iframe_container mb-5">
-                  <iframe
-                    className="responsive_iframe"
-                    src="https://www.youtube.com/embed/G5i--N08li4"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -8,7 +8,7 @@ import ShopPDF2 from '../../../Assets/Forms/Reliance_Shopkeepers_Package_Policy_
 const Shop = () => {
   return (
     <main className="service_components_container">
-      <section className="accidental_service_bg d-flex justify-content-center align-items-center">
+      <section className="shop_service_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center main_service_header">
           SHOP INSURANCE
         </h1>
@@ -140,6 +140,21 @@ const Shop = () => {
                   </li>
                 </ul>
               </section>
+              <article>
+                <h1 className="text-center topics_header">
+                  Introductory Video
+                </h1>
+                <div className="iframe_container mb-5">
+                  <iframe
+                    className="responsive_iframe"
+                    src="https://www.youtube.com/embed/ysegVMlCUgQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </article>
             </div>
           </div>
         </div>

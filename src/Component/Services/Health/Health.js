@@ -194,7 +194,7 @@ const Health = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Youngster policy
+                      Young star policy
                     </a>
                   </li>
                   <li className="mb-4">
@@ -215,16 +215,6 @@ const Health = () => {
                       rel="noreferrer"
                     >
                       Star Health Gain Insurance Policy
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a
-                      className="fw-bold"
-                      href="https://www.starhealth.in/sites/default/files/brochure/star-family-delite-insurance.pdf"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Star Family Delite Insurance Policy Brochure
                     </a>
                   </li>
                   <li className="mb-4">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { a } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Button from '@material-ui/core/Button';
 import ShopIcon from '@material-ui/icons/Shop';
@@ -137,36 +137,36 @@ function Footer() {
                 {/* <!-- Links --> */}
                 <h3 className="fw-bold mb-4 footer_header">EXPLORE</h3>
                 <p className="footer_para">
-                  <NavLink
-                    to="/about"
+                  <a
+                    href="/about"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     About Us
-                  </NavLink>
+                  </a>
                 </p>
                 <p className="footer_para">
-                  <NavLink
-                    to="/awards-and-certifications"
+                  <a
+                    href="/awards-and-certifications"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     Awards
-                  </NavLink>
+                  </a>
                 </p>
                 <p className="footer_para">
-                  <NavLink
-                    to="/gallery"
+                  <a
+                    href="/gallery"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     Gallery
-                  </NavLink>
+                  </a>
                 </p>
                 <p className="footer_para">
-                  <NavLink
-                    to="/awards-and-certifications"
+                  <a
+                    href="/awards-and-certifications"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     Certifications
-                  </NavLink>
+                  </a>
                 </p>
               </div>
               {/* <!-- Grid column --> */}
@@ -176,52 +176,52 @@ function Footer() {
                 {/* <!-- Links --> */}
                 <h3 className="fw-bold mb-4 footer_header">SERVICES</h3>
                 <p className="footer_para">
-                  <NavLink
-                    to="/services/LIC-insurance"
+                  <a
+                    href="/services/LIC-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     LIC Insurance
-                  </NavLink>
+                  </a>
                 </p>
                 <p className="footer_para">
-                  <NavLink
-                    to="/services/health-insurance"
+                  <a
+                    href="/services/health-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     Health Insurance
-                  </NavLink>
+                  </a>
                 </p>
                 <p className="footer_para">
-                  <NavLink
-                    to="/services/vehicle-insurance"
+                  <a
+                    href="/services/vehicle-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     Vehicle Insurance
-                  </NavLink>
+                  </a>
                 </p>
                 <p className="footer_para">
-                  <NavLink
-                    to="/services/accidental-insurance"
+                  <a
+                    href="/services/accidental-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     Accidental Insurance
-                  </NavLink>
+                  </a>
                 </p>
                 <p className="footer_para">
-                  <NavLink
-                    to="/services/travel-insurance"
+                  <a
+                    href="/services/travel-insurance"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     Travel Insurance
-                  </NavLink>
+                  </a>
                 </p>
                 <p className="footer_para">
-                  <NavLink
-                    to="/services/other-financial-services"
+                  <a
+                    href="/services/other-financial-services"
                     className="footer_links text-decoration-none fw-bold"
                   >
                     Other Services
-                  </NavLink>
+                  </a>
                 </p>
               </div>
               {/* <!-- Grid column --> */}

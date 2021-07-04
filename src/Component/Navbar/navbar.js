@@ -77,7 +77,7 @@ export default function navbar() {
                       activeClassName="active_class"
                       to="/services/LIC-insurance"
                     >
-                      LIC INSURANCES
+                      LIC INSURANCE
                     </NavLink>
                   </li>
                   <li>
@@ -87,7 +87,7 @@ export default function navbar() {
                       activeClassName="active_class"
                       to="/services/health-insurance"
                     >
-                      STAR HEALTH INSURANCE
+                      HEALTH INSURANCE
                     </NavLink>
                   </li>
                   <li>

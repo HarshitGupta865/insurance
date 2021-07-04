@@ -7,7 +7,7 @@ import FlatPDF from '../../../Assets/Forms/Flat_Insurance.pdf';
 const Flat = () => {
   return (
     <main className="service_components_container">
-      <section className="accidental_service_bg d-flex justify-content-center align-items-center">
+      <section className="flat_service_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center main_service_header">
           FLAT INSURANCE
         </h1>
@@ -79,17 +79,39 @@ const Flat = () => {
             </div>
             <div className="col col-md-6 col-12 right_column">
               <h1 className="text-center topics_header">Quick links !</h1>
-              <h1 className="text-center fw-bold mb-5">FORMS</h1>
-              <center className="content_para">
-                <a
-                  className="fw-bold"
-                  href={FlatPDF}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Click here to open the Flat Insurance brochure
-                </a>
-              </center>
+              <section className="mx-sm-5 mx-3">
+                <h1 className="text-center fw-bold mb-5">FORMS</h1>
+                <span className="content_para blue_content fw-bold fst-italic">
+                  FLAT INSURANCE:
+                </span>
+                <ul className="content_para mt-4">
+                  <li className="mb-4">
+                    <a
+                      className="fw-bold"
+                      href={FlatPDF}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Click here to open the flat insurance brochure
+                    </a>
+                  </li>
+                </ul>
+              </section>
+              <article>
+                <h1 className="text-center topics_header">
+                  Introductory Video
+                </h1>
+                <div className="iframe_container mb-5">
+                  <iframe
+                    className="responsive_iframe"
+                    src="https://www.youtube.com/embed/G5i--N08li4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </article>
             </div>
           </div>
         </div>

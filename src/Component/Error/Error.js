@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../../index.css';
 import './Error.css';
 
@@ -17,16 +17,16 @@ function Error(props) {
       <p className="error_para">
         Sorry, the page you searched for can't be found !
       </p>
-      {/* <NavLink to="/home"> */}
-      <Button
-        style={buttonStyling}
-        className="p-3"
-        variant="outlined"
-        size="large"
-      >
-        GO TO HOME PAGE
-      </Button>
-      {/* </NavLink> */}
+      <NavLink to="/home">
+        <Button
+          style={buttonStyling}
+          className="p-3"
+          variant="outlined"
+          size="large"
+        >
+          GO TO HOME PAGE
+        </Button>
+      </NavLink>
     </div>
   );
 }

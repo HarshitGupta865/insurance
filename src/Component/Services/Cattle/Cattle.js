@@ -7,7 +7,7 @@ import CattlePDF from '../../../Assets/Forms/Reliance_Cattle_Insurance_Policy.pd
 const Cattle = () => {
   return (
     <main className="service_components_container">
-      <section className="accidental_service_bg d-flex justify-content-center align-items-center">
+      <section className="cattle_service_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center main_service_header">
           CATTLE INSURANCE
         </h1>
