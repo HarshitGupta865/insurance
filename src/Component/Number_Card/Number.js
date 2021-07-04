@@ -21,7 +21,7 @@ export default function Numbers() {
       </div>
       <div className=" row number-card-div">
         <div
-          class="col-md-4 col-12 m-5 p-5 card number-card shadow-lg"
+          class="col-sm-4 col-12 m-2 p-5 card number-card shadow-lg"
           data-aos="fade-down"
         >
           <div className="number">
@@ -34,7 +34,7 @@ export default function Numbers() {
         </div>
 
         <div
-          class="col-md-4 col-12 m-5 p-5 card number-card shadow-lg"
+          class="col-sm-4 col-12 m-2 p-5 card number-card shadow-lg"
           data-aos="fade-down"
         >
           <div className="number">
@@ -47,7 +47,7 @@ export default function Numbers() {
         </div>
 
         <div
-          class="col-md-4 col-12 m-5 p-5 card number-card shadow-lg"
+          class="col-sm-4 col-12 m-2 p-5 card number-card shadow-lg"
           data-aos="fade-down"
         >
           <div className="number">
