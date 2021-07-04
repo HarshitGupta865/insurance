@@ -1,6 +1,7 @@
-/* .herocontact-div{
-    background-color: #3265A7;
-} */
+.homecontact-container {
+  background-color: var(--white);
+  padding-bottom: 4rem;
+}
 
 .second-column {
   background-image: url('../../Assets/Images/herocontact.jpg');

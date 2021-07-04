@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,6 +12,14 @@ import {
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/fontawesome-free-solid';
+
+const materialUiStyling = {
+  fontSize: '1.1rem',
+  backgroundColor: '#3265A7',
+  color: '#FFFFFF',
+  fontWeight: 'bold',
+  textShadow: '2px 1px 2px #000000',
+};
 
 export default function Contact() {
   function sendEmail(e) {
@@ -32,6 +41,7 @@ export default function Contact() {
         }
       );
 
+    alert('Your resposne has been submitted');
     e.target.reset();
   }
 
@@ -186,9 +196,16 @@ export default function Contact() {
                   placeholder="Write something..."
                 ></textarea>
               </div>
-              <button type="submit" className="btn submit-btn btn-lg mb-5">
+              <Button
+                type="submit"
+                style={materialUiStyling}
+                className="px-5 py-3"
+                target="_blank"
+                variant="contained"
+                size="small"
+              >
                 SUBMIT
-              </button>
+              </Button>
             </div>
           </form>
         </div>
