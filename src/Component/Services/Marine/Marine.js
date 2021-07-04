@@ -31,11 +31,11 @@ const Marine = () => {
                   between different points of origin and their final
                   destination.{' '}
                   <span className="fw-bold">
-                    Providing protection against transport-related losse
+                    Providing protection against transport-related losses,
                   </span>{' '}
-                  s, this voyage policy provides a haven for shipping companies
-                  and couriers because it protects them from costly potential
-                  losses while transporting goods by water.
+                  this voyage policy provides a haven for shipping companies and
+                  couriers because it protects them from costly potential losses
+                  while transporting goods by water.
                 </p>
                 <p className="mx-sm-5 mx-3 mt-5 content_para">
                   Despite following laws and safety regulations, transporters

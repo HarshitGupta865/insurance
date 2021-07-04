@@ -7,7 +7,7 @@ import FirePDF from '../../../Assets/Forms/Standard_Fire_and_Special_Perils_Poli
 const Fire = () => {
   return (
     <main className="service_components_container">
-      <section className="accidental_service_bg d-flex justify-content-center align-items-center">
+      <section className="fire_service_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center main_service_header">
           FIRE & PERILS INSURANCE
         </h1>

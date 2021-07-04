@@ -86,7 +86,22 @@ const Machine = () => {
               </article>
             </div>
             <div className="col col-md-6 col-12 right_column">
-              <h1 className="text-center topics_header">Quick links !</h1>
+              {/* <h1 className="text-center topics_header">Quick links !</h1> */}
+              <article>
+                <h1 className="text-center topics_header">
+                  Introductory Video
+                </h1>
+                <div className="iframe_container mb-5">
+                  <iframe
+                    className="responsive_iframe"
+                    src="https://www.youtube.com/embed/SerPr38WtZk"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </article>
             </div>
           </div>
         </div>

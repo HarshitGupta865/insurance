@@ -6,7 +6,7 @@ import './Commercial.css';
 const Commercial = () => {
   return (
     <main className="service_components_container">
-      <section className="accidental_service_bg d-flex justify-content-center align-items-center">
+      <section className="commercial_service_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center main_service_header">
           COMMERCIAL CARE INSURANCE
         </h1>
@@ -53,7 +53,21 @@ const Commercial = () => {
               </article>
             </div>
             <div className="col col-md-6 col-12 right_column">
-              <h1 className="text-center topics_header">Quick links !</h1>
+              <article>
+                <h1 className="text-center topics_header">
+                  Introductory Video
+                </h1>
+                <div className="iframe_container mb-5">
+                  <iframe
+                    className="responsive_iframe"
+                    src="https://www.youtube.com/embed/5ivDH82prv4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </article>
             </div>
           </div>
         </div>

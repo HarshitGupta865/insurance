@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 import './About.css';
 import '../../index.css';
 import Button from '@material-ui/core/Button';
@@ -15,17 +16,30 @@ const materialUiStyling = {
 };
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 1000,
+      easing: 'ease',
+    });
+  });
   return (
     <main className="about_container">
       <section className="about_bg d-flex justify-content-center align-items-center">
         <h1 className="fw-bold text-center about_header">ABOUT US</h1>
       </section>
       <section className="about_content">
-        <p className="about_header text-center pt-5 pb-md-0 pb-3">
+        <p
+          className="about_header text-center pt-5 pb-md-0 pb-3"
+          data-aos="fade-down"
+        >
           <span className="first_span">INSURANCE POINT </span>
           <span className="second_span">OFFICE</span>
         </p>
-        <p className="about_para text-center fw-bold fst-italic px-5 pb-5">
+        <p
+          className="about_para text-center fw-bold fst-italic px-5 pb-5"
+          data-aos="fade-down"
+        >
           Insurance Point Office helps customers in all their financial
           consultations and advisories, with all the utilities of their
           portfolio managements and wealth making.
@@ -33,7 +47,7 @@ const About = () => {
 
         {/* ------------------------------------------MISSION & VISION----------------------------------- */}
 
-        <section className="row goals_row ">
+        <section className="row goals_row " data-aos="fade-down">
           <div className="col-md-6 col-12 text-center pb-5">
             <h1 className="goals_header fw-bold pb-3">OUR MISSION</h1>
             <p className="mx-5 about_para fw-bold fst-italic">
@@ -53,14 +67,20 @@ const About = () => {
         {/* ---------------------------------------FIRST DESCRIPTION--------------------------------------- */}
 
         <section className="row description_row">
-          <div className="col-lg-6 col-12 d-flex align-items-center justify-content-center">
+          <div
+            className="col-lg-6 col-12 d-flex align-items-center justify-content-center"
+            data-aos="fade-right"
+          >
             <img
               className="first_image img-fluid"
               src={ProfilePic1}
               alt="profile_pic"
             />
           </div>
-          <div className="col-lg-6 col-12 pt-lg-0 pt-5 first_description_para">
+          <div
+            className="col-lg-6 col-12 pt-lg-0 pt-5 first_description_para"
+            data-aos="fade-left"
+          >
             <p className="">
               My name is Mr. Rajendra Prasad and I am an{' '}
               <span className="fw-bold">
@@ -120,7 +140,10 @@ const About = () => {
         {/* -----------------------------------------SECOND DESCRIPTION-------------------------------------- */}
 
         <section className="row description_row">
-          <div className="col-lg-6 col-12 pt-lg-0 pt-5 order-lg-1 order-2 second_description_para">
+          <div
+            className="col-lg-6 col-12 pt-lg-0 pt-5 order-lg-1 order-2 second_description_para"
+            data-aos="fade-right"
+          >
             <p>
               My name is Ashish Kumar,{' '}
               <span className="fw-bold">
@@ -157,7 +180,10 @@ const About = () => {
               </ul>
             </p>
           </div>
-          <div className="col-lg-6 col-12 d-flex align-items-center justify-content-center order-lg-2 order-1">
+          <div
+            className="col-lg-6 col-12 d-flex align-items-center justify-content-center order-lg-2 order-1"
+            data-aos="fade-left"
+          >
             <img
               className="second_image img-fluid"
               src={ProfilePic2}
