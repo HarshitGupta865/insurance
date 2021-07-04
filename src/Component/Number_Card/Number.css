@@ -30,3 +30,17 @@
     -o-transform:scale(1.15);
     transform:scale(1.15);
 }
+
+@media only screen and (max-width: 992px){
+
+    .number-card-div{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        margin-top: 5%;
+    }
+
+    .number-card{
+        margin-top: 5%;
+    }
+}
