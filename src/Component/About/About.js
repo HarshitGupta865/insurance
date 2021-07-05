@@ -93,7 +93,7 @@ const About = () => {
               proper research and consult with an experienced advisor with a
               good profile.{' '}
               <span className="fw-bold">
-                I have been in this field for {new Date().getFullYear() - 2001}{' '}
+                I have been in this field for {new Date().getFullYear() - 1996}{' '}
                 years
               </span>{' '}
               and aim to give my best advice to each and every client.

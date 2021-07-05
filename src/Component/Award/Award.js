@@ -26,6 +26,7 @@ import Award18 from '../../Assets/Awards/award18.jpg';
 import Award19 from '../../Assets/Awards/award19.jpg';
 import Award20 from '../../Assets/Awards/award20.jpg';
 import Award21 from '../../Assets/Awards/award21.jpg';
+import Award22 from '../../Assets/Awards/award22-min.jpg';
 
 // --------------------------------------------  CERTIFICATE IMAGES IMPORT---------------------------------
 
@@ -224,6 +225,14 @@ const Award = () => {
             <img
               className="award_image"
               src={Award21}
+              alt="award_image"
+              data-aos="fade-down"
+            />
+          </div>
+          <div className="col-lg-3 col-md-4 col-6 d-flex justify-content-around award_div">
+            <img
+              className="award_image"
+              src={Award22}
               alt="award_image"
               data-aos="fade-down"
             />
