@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import '../../index.css';
@@ -10,15 +9,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../../Assets/Images/logo.png';
 import { faBars } from '@fortawesome/fontawesome-free-solid';
 export default function Navbar() {
-  useEffect(() => {
-    AOS.init({
-      offset: 100,
-      duration: 1000,
-      easing: 'ease',
-    });
-  });
   return (
-    <div data-aos="fade-down">
+    <div>
       <nav className="navbar navbar-expand-lg navbar_css">
         <div className="container-fluid nav-width">
           <NavLink
