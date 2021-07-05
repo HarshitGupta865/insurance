@@ -40,16 +40,16 @@ const Gallery = () => {
       </section>
       <section className="gallery_section">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img className="gallery_image" src={Image8} alt="gallery_image" />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img className="gallery_image" src={Image7} alt="gallery_image" />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img className="gallery_image" src={Image1} alt="gallery_image" />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image9}
@@ -57,7 +57,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image15}
@@ -65,7 +65,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image2}
@@ -73,7 +73,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image10}
@@ -81,7 +81,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image14}
@@ -89,7 +89,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image3}
@@ -97,7 +97,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image11}
@@ -105,7 +105,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image16}
@@ -113,7 +113,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image4}
@@ -121,7 +121,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image12}
@@ -129,7 +129,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image17}
@@ -137,7 +137,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image5}
@@ -145,7 +145,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image13}
@@ -153,7 +153,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image21}
@@ -161,7 +161,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image6}
@@ -169,7 +169,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image18}
@@ -177,7 +177,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image19}
@@ -185,7 +185,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image20}
@@ -193,7 +193,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image22}
@@ -201,7 +201,7 @@ const Gallery = () => {
               data-aos="fade-down"
             />
           </div>
-          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around">
+          <div className="col-lg-4 col-md-6 col-12 d-flex justify-content-around gallery_divs">
             <img
               className="gallery_image"
               src={Image23}
