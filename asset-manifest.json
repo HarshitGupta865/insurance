@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8e26634e.chunk.css",
-    "main.js": "/static/js/main.ffde8c3c.chunk.js",
-    "main.js.map": "/static/js/main.ffde8c3c.chunk.js.map",
+    "main.js": "/static/js/main.c6b12021.chunk.js",
+    "main.js.map": "/static/js/main.c6b12021.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c56c41e9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c56c41e9.js.map",
     "static/css/2.1f600829.chunk.css": "/static/css/2.1f600829.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/Flat_Insurance.6324293e.pdf": "/static/media/Flat_Insurance.6324293e.pdf",
     "static/media/Hotel_Insurance.d7d4ba4c.pdf": "/static/media/Hotel_Insurance.d7d4ba4c.pdf",
     "static/media/House_Insurance.8ea79145.pdf": "/static/media/House_Insurance.8ea79145.pdf",
-    "static/media/InsurancePointOffice_Brochure.8b4cf85a.pdf": "/static/media/InsurancePointOffice_Brochure.8b4cf85a.pdf",
+    "static/media/IPO.9ea6c65b.pdf": "/static/media/IPO.9ea6c65b.pdf",
     "static/media/Lic.css": "/static/media/LIC_bg.a0bae365.jpg",
     "static/media/Marine Cargo Insurance Policy.49ec6a24.pdf": "/static/media/Marine Cargo Insurance Policy.49ec6a24.pdf",
     "static/media/Office_Insurance.fcb58b13.pdf": "/static/media/Office_Insurance.fcb58b13.pdf",
@@ -57,6 +57,7 @@
     "static/media/award2.7cf1a512.jpg": "/static/media/award2.7cf1a512.jpg",
     "static/media/award20.ad4a39ad.jpg": "/static/media/award20.ad4a39ad.jpg",
     "static/media/award21.f3699355.jpg": "/static/media/award21.f3699355.jpg",
+    "static/media/award22-min.351f603f.jpg": "/static/media/award22-min.351f603f.jpg",
     "static/media/award3.748a0be4.jpg": "/static/media/award3.748a0be4.jpg",
     "static/media/award4.1ccde008.jpg": "/static/media/award4.1ccde008.jpg",
     "static/media/award5.08791e6c.jpg": "/static/media/award5.08791e6c.jpg",
@@ -146,6 +147,6 @@
     "static/css/2.1f600829.chunk.css",
     "static/js/2.42aeaadc.chunk.js",
     "static/css/main.8e26634e.chunk.css",
-    "static/js/main.ffde8c3c.chunk.js"
+    "static/js/main.c6b12021.chunk.js"
   ]
 }
